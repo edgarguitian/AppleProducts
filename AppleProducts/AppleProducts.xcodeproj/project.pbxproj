@@ -51,6 +51,15 @@
 		6DB6FBDA2C243CAF00ADA01A /* AppleProducts */ = {
 			isa = PBXGroup;
 			children = (
+				6DB6FBE92C243D3C00ADA01A /* Extensions */,
+				6DB6FBEA2C243D5900ADA01A /* Managers */,
+				6DB6FBEB2C243D6400ADA01A /* Utils */,
+				6DB6FBEC2C243D6E00ADA01A /* Composition Root */,
+				6DB6FBED2C243D7E00ADA01A /* UI */,
+				6DB6FBEE2C243D8A00ADA01A /* Presentation */,
+				6DB6FBEF2C243D9900ADA01A /* Infraestructure */,
+				6DB6FBF02C243DA900ADA01A /* Data */,
+				6DB6FBF12C243DB200ADA01A /* Domain */,
 				6DB6FBDB2C243CAF00ADA01A /* AppleProductsApp.swift */,
 				6DB6FBDD2C243CAF00ADA01A /* ContentView.swift */,
 				6DB6FBDF2C243CB100ADA01A /* Assets.xcassets */,
@@ -65,6 +74,141 @@
 				6DB6FBE22C243CB100ADA01A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6DB6FBE92C243D3C00ADA01A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6DB6FBEA2C243D5900ADA01A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		6DB6FBEB2C243D6400ADA01A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6DB6FBEC2C243D6E00ADA01A /* Composition Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Composition Root";
+			sourceTree = "<group>";
+		};
+		6DB6FBED2C243D7E00ADA01A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		6DB6FBEE2C243D8A00ADA01A /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		6DB6FBEF2C243D9900ADA01A /* Infraestructure */ = {
+			isa = PBXGroup;
+			children = (
+				6DB6FBFA2C243E2600ADA01A /* Networking */,
+			);
+			path = Infraestructure;
+			sourceTree = "<group>";
+		};
+		6DB6FBF02C243DA900ADA01A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6DB6FBF62C243DEC00ADA01A /* Mapper */,
+				6DB6FBF72C243DF500ADA01A /* DTOs */,
+				6DB6FBF82C243E0100ADA01A /* Networking */,
+				6DB6FBF92C243E1200ADA01A /* Repositories */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6DB6FBF12C243DB200ADA01A /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				6DB6FBF22C243DBF00ADA01A /* Error */,
+				6DB6FBF32C243DC400ADA01A /* Interfaces */,
+				6DB6FBF42C243DCD00ADA01A /* Use Cases */,
+				6DB6FBF52C243DD700ADA01A /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		6DB6FBF22C243DBF00ADA01A /* Error */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		6DB6FBF32C243DC400ADA01A /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		6DB6FBF42C243DCD00ADA01A /* Use Cases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Use Cases";
+			sourceTree = "<group>";
+		};
+		6DB6FBF52C243DD700ADA01A /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		6DB6FBF62C243DEC00ADA01A /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		6DB6FBF72C243DF500ADA01A /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
+		6DB6FBF82C243E0100ADA01A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		6DB6FBF92C243E1200ADA01A /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		6DB6FBFA2C243E2600ADA01A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
