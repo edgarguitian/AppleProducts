@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct AppleProductsApp: App {
+    private let appDIContainer = AppDIContainer()
+    // private let imageAuthenticationChallenge = ImageDownloadAuthenticationChallenge()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            appDIContainer.productListView
         }
+    }
+
+    init() {
+        // ImageDownloader.default.authenticationChallengeResponder = imageAuthenticationChallenge
     }
 }

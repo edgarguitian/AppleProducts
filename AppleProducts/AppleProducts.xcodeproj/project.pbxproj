@@ -8,17 +8,84 @@
 
 /* Begin PBXBuildFile section */
 		6DB6FBDC2C243CAF00ADA01A /* AppleProductsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FBDB2C243CAF00ADA01A /* AppleProductsApp.swift */; };
-		6DB6FBDE2C243CAF00ADA01A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FBDD2C243CAF00ADA01A /* ContentView.swift */; };
 		6DB6FBE02C243CB100ADA01A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DB6FBDF2C243CB100ADA01A /* Assets.xcassets */; };
 		6DB6FBE32C243CB100ADA01A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DB6FBE22C243CB100ADA01A /* Preview Assets.xcassets */; };
+		6DB6FBFC2C243EE800ADA01A /* AppleProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FBFB2C243EE800ADA01A /* AppleProduct.swift */; };
+		6DB6FBFE2C243F3900ADA01A /* FetchAppleProductListRepositoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FBFD2C243F3900ADA01A /* FetchAppleProductListRepositoryType.swift */; };
+		6DB6FC002C243F7800ADA01A /* FetchAppleProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FBFF2C243F7800ADA01A /* FetchAppleProductList.swift */; };
+		6DB6FC022C24400E00ADA01A /* FetchAppleProductListType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FC012C24400E00ADA01A /* FetchAppleProductListType.swift */; };
+		6DB6FC042C24405400ADA01A /* FetchAppleProductListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FC032C24405400ADA01A /* FetchAppleProductListRepository.swift */; };
+		6DB6FC062C2440DD00ADA01A /* AppleProductListDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FC052C2440DD00ADA01A /* AppleProductListDTO.swift */; };
+		6DB6FC082C24419800ADA01A /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FC072C24419800ADA01A /* APIEndpoint.swift */; };
+		6DB6FC0A2C2441C600ADA01A /* AppleProductListServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FC092C2441C600ADA01A /* AppleProductListServiceType.swift */; };
+		6DB6FC0C2C2441CD00ADA01A /* AppleProductListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FC0B2C2441CD00ADA01A /* AppleProductListService.swift */; };
+		6DB6FC0E2C2443B200ADA01A /* DataTransferService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FC0D2C2443B200ADA01A /* DataTransferService.swift */; };
+		6DB6FC102C2443CD00ADA01A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FC0F2C2443CD00ADA01A /* NetworkManager.swift */; };
+		6DB6FC122C2443E500ADA01A /* NetworkConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FC112C2443E500ADA01A /* NetworkConfigurable.swift */; };
+		6DB6FC142C24466F00ADA01A /* NetworkSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FC132C24466F00ADA01A /* NetworkSessionManager.swift */; };
+		6DB6FC162C24468100ADA01A /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FC152C24468100ADA01A /* URLSessionProtocol.swift */; };
+		6DB6FC182C24469C00ADA01A /* URLRequestGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FC172C24469C00ADA01A /* URLRequestGenerator.swift */; };
+		6DB6FC1A2C2446B200ADA01A /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FC192C2446B200ADA01A /* NetworkRequest.swift */; };
+		6DB6FC1C2C2446C600ADA01A /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FC1B2C2446C600ADA01A /* NetworkError.swift */; };
+		6DB6FC1E2C24475900ADA01A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FC1D2C24475900ADA01A /* Constants.swift */; };
+		6DB6FC202C24479B00ADA01A /* AppleProductListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FC1F2C24479B00ADA01A /* AppleProductListViewModel.swift */; };
+		6DB6FC222C2447DE00ADA01A /* AppleProductListPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FC212C2447DE00ADA01A /* AppleProductListPresentable.swift */; };
+		6DB6FC242C24487000ADA01A /* AppleProductListViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FC232C24487000ADA01A /* AppleProductListViewModelType.swift */; };
+		6DB6FC2C2C2449FE00ADA01A /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FC2B2C2449FE00ADA01A /* Double+Extensions.swift */; };
+		6DB6FC302C244A4C00ADA01A /* AppleProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FC2F2C244A4C00ADA01A /* AppleProductListView.swift */; };
+		6DB6FC322C244B2400ADA01A /* AppleProductListLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FC312C244B2400ADA01A /* AppleProductListLayout.swift */; };
+		6DB6FC342C244B6400ADA01A /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FC332C244B6400ADA01A /* ErrorView.swift */; };
+		6DB6FC362C244B8800ADA01A /* AppleProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FC352C244B8800ADA01A /* AppleProductItemView.swift */; };
+		6DB6FC382C244BA500ADA01A /* HeaderImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FC372C244BA500ADA01A /* HeaderImageView.swift */; };
+		6DB6FC3B2C244BC200ADA01A /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 6DB6FC3A2C244BC200ADA01A /* Kingfisher */; };
+		6DB6FC3D2C244BE800ADA01A /* AppleProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FC3C2C244BE800ADA01A /* AppleProductDetailView.swift */; };
+		6DB6FC3F2C244DFF00ADA01A /* AppleProductListFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FC3E2C244DFF00ADA01A /* AppleProductListFactory.swift */; };
+		6DB6FC412C24505B00ADA01A /* AppDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FC402C24505B00ADA01A /* AppDIContainer.swift */; };
+		6DB6FC432C24507A00ADA01A /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FC422C24507A00ADA01A /* AppConfiguration.swift */; };
+		6DB6FC452C2450D100ADA01A /* SharedURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FC442C2450D100ADA01A /* SharedURLSession.swift */; };
+		6DB6FC472C2450E100ADA01A /* SharedURLSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FC462C2450E100ADA01A /* SharedURLSessionDelegate.swift */; };
+		6DB6FC492C2450FD00ADA01A /* URLAuthenticationChallenge+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6FC482C2450FD00ADA01A /* URLAuthenticationChallenge+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6DB6FBD82C243CAF00ADA01A /* AppleProducts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleProducts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DB6FBDB2C243CAF00ADA01A /* AppleProductsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleProductsApp.swift; sourceTree = "<group>"; };
-		6DB6FBDD2C243CAF00ADA01A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6DB6FBDF2C243CB100ADA01A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DB6FBE22C243CB100ADA01A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6DB6FBFB2C243EE800ADA01A /* AppleProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleProduct.swift; sourceTree = "<group>"; };
+		6DB6FBFD2C243F3900ADA01A /* FetchAppleProductListRepositoryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchAppleProductListRepositoryType.swift; sourceTree = "<group>"; };
+		6DB6FBFF2C243F7800ADA01A /* FetchAppleProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchAppleProductList.swift; sourceTree = "<group>"; };
+		6DB6FC012C24400E00ADA01A /* FetchAppleProductListType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchAppleProductListType.swift; sourceTree = "<group>"; };
+		6DB6FC032C24405400ADA01A /* FetchAppleProductListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchAppleProductListRepository.swift; sourceTree = "<group>"; };
+		6DB6FC052C2440DD00ADA01A /* AppleProductListDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleProductListDTO.swift; sourceTree = "<group>"; };
+		6DB6FC072C24419800ADA01A /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		6DB6FC092C2441C600ADA01A /* AppleProductListServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleProductListServiceType.swift; sourceTree = "<group>"; };
+		6DB6FC0B2C2441CD00ADA01A /* AppleProductListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleProductListService.swift; sourceTree = "<group>"; };
+		6DB6FC0D2C2443B200ADA01A /* DataTransferService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTransferService.swift; sourceTree = "<group>"; };
+		6DB6FC0F2C2443CD00ADA01A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		6DB6FC112C2443E500ADA01A /* NetworkConfigurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConfigurable.swift; sourceTree = "<group>"; };
+		6DB6FC132C24466F00ADA01A /* NetworkSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSessionManager.swift; sourceTree = "<group>"; };
+		6DB6FC152C24468100ADA01A /* URLSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionProtocol.swift; sourceTree = "<group>"; };
+		6DB6FC172C24469C00ADA01A /* URLRequestGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestGenerator.swift; sourceTree = "<group>"; };
+		6DB6FC192C2446B200ADA01A /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		6DB6FC1B2C2446C600ADA01A /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		6DB6FC1D2C24475900ADA01A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6DB6FC1F2C24479B00ADA01A /* AppleProductListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleProductListViewModel.swift; sourceTree = "<group>"; };
+		6DB6FC212C2447DE00ADA01A /* AppleProductListPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleProductListPresentable.swift; sourceTree = "<group>"; };
+		6DB6FC232C24487000ADA01A /* AppleProductListViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleProductListViewModelType.swift; sourceTree = "<group>"; };
+		6DB6FC2B2C2449FE00ADA01A /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		6DB6FC2F2C244A4C00ADA01A /* AppleProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleProductListView.swift; sourceTree = "<group>"; };
+		6DB6FC312C244B2400ADA01A /* AppleProductListLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleProductListLayout.swift; sourceTree = "<group>"; };
+		6DB6FC332C244B6400ADA01A /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		6DB6FC352C244B8800ADA01A /* AppleProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleProductItemView.swift; sourceTree = "<group>"; };
+		6DB6FC372C244BA500ADA01A /* HeaderImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderImageView.swift; sourceTree = "<group>"; };
+		6DB6FC3C2C244BE800ADA01A /* AppleProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleProductDetailView.swift; sourceTree = "<group>"; };
+		6DB6FC3E2C244DFF00ADA01A /* AppleProductListFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleProductListFactory.swift; sourceTree = "<group>"; };
+		6DB6FC402C24505B00ADA01A /* AppDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDIContainer.swift; sourceTree = "<group>"; };
+		6DB6FC422C24507A00ADA01A /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		6DB6FC442C2450D100ADA01A /* SharedURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedURLSession.swift; sourceTree = "<group>"; };
+		6DB6FC462C2450E100ADA01A /* SharedURLSessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedURLSessionDelegate.swift; sourceTree = "<group>"; };
+		6DB6FC482C2450FD00ADA01A /* URLAuthenticationChallenge+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLAuthenticationChallenge+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DB6FC3B2C244BC200ADA01A /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +119,9 @@
 		6DB6FBDA2C243CAF00ADA01A /* AppleProducts */ = {
 			isa = PBXGroup;
 			children = (
+				6DB6FBDB2C243CAF00ADA01A /* AppleProductsApp.swift */,
+				6DB6FC402C24505B00ADA01A /* AppDIContainer.swift */,
+				6DB6FC422C24507A00ADA01A /* AppConfiguration.swift */,
 				6DB6FBE92C243D3C00ADA01A /* Extensions */,
 				6DB6FBEA2C243D5900ADA01A /* Managers */,
 				6DB6FBEB2C243D6400ADA01A /* Utils */,
@@ -60,8 +131,6 @@
 				6DB6FBEF2C243D9900ADA01A /* Infraestructure */,
 				6DB6FBF02C243DA900ADA01A /* Data */,
 				6DB6FBF12C243DB200ADA01A /* Domain */,
-				6DB6FBDB2C243CAF00ADA01A /* AppleProductsApp.swift */,
-				6DB6FBDD2C243CAF00ADA01A /* ContentView.swift */,
 				6DB6FBDF2C243CB100ADA01A /* Assets.xcassets */,
 				6DB6FBE12C243CB100ADA01A /* Preview Content */,
 			);
@@ -79,6 +148,8 @@
 		6DB6FBE92C243D3C00ADA01A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				6DB6FC2B2C2449FE00ADA01A /* Double+Extensions.swift */,
+				6DB6FC482C2450FD00ADA01A /* URLAuthenticationChallenge+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -93,6 +164,7 @@
 		6DB6FBEB2C243D6400ADA01A /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				6DB6FC1D2C24475900ADA01A /* Constants.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -100,6 +172,7 @@
 		6DB6FBEC2C243D6E00ADA01A /* Composition Root */ = {
 			isa = PBXGroup;
 			children = (
+				6DB6FC3E2C244DFF00ADA01A /* AppleProductListFactory.swift */,
 			);
 			path = "Composition Root";
 			sourceTree = "<group>";
@@ -107,6 +180,12 @@
 		6DB6FBED2C243D7E00ADA01A /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				6DB6FC2F2C244A4C00ADA01A /* AppleProductListView.swift */,
+				6DB6FC312C244B2400ADA01A /* AppleProductListLayout.swift */,
+				6DB6FC332C244B6400ADA01A /* ErrorView.swift */,
+				6DB6FC352C244B8800ADA01A /* AppleProductItemView.swift */,
+				6DB6FC372C244BA500ADA01A /* HeaderImageView.swift */,
+				6DB6FC3C2C244BE800ADA01A /* AppleProductDetailView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -114,6 +193,9 @@
 		6DB6FBEE2C243D8A00ADA01A /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				6DB6FC212C2447DE00ADA01A /* AppleProductListPresentable.swift */,
+				6DB6FC232C24487000ADA01A /* AppleProductListViewModelType.swift */,
+				6DB6FC1F2C24479B00ADA01A /* AppleProductListViewModel.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -131,7 +213,7 @@
 			children = (
 				6DB6FBF62C243DEC00ADA01A /* Mapper */,
 				6DB6FBF72C243DF500ADA01A /* DTOs */,
-				6DB6FBF82C243E0100ADA01A /* Networking */,
+				6DB6FBF82C243E0100ADA01A /* Services */,
 				6DB6FBF92C243E1200ADA01A /* Repositories */,
 			);
 			path = Data;
@@ -158,6 +240,8 @@
 		6DB6FBF32C243DC400ADA01A /* Interfaces */ = {
 			isa = PBXGroup;
 			children = (
+				6DB6FC012C24400E00ADA01A /* FetchAppleProductListType.swift */,
+				6DB6FBFD2C243F3900ADA01A /* FetchAppleProductListRepositoryType.swift */,
 			);
 			path = Interfaces;
 			sourceTree = "<group>";
@@ -165,6 +249,7 @@
 		6DB6FBF42C243DCD00ADA01A /* Use Cases */ = {
 			isa = PBXGroup;
 			children = (
+				6DB6FBFF2C243F7800ADA01A /* FetchAppleProductList.swift */,
 			);
 			path = "Use Cases";
 			sourceTree = "<group>";
@@ -172,6 +257,7 @@
 		6DB6FBF52C243DD700ADA01A /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				6DB6FBFB2C243EE800ADA01A /* AppleProduct.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -186,20 +272,25 @@
 		6DB6FBF72C243DF500ADA01A /* DTOs */ = {
 			isa = PBXGroup;
 			children = (
+				6DB6FC052C2440DD00ADA01A /* AppleProductListDTO.swift */,
 			);
 			path = DTOs;
 			sourceTree = "<group>";
 		};
-		6DB6FBF82C243E0100ADA01A /* Networking */ = {
+		6DB6FBF82C243E0100ADA01A /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				6DB6FC072C24419800ADA01A /* APIEndpoint.swift */,
+				6DB6FC092C2441C600ADA01A /* AppleProductListServiceType.swift */,
+				6DB6FC0B2C2441CD00ADA01A /* AppleProductListService.swift */,
 			);
-			path = Networking;
+			path = Services;
 			sourceTree = "<group>";
 		};
 		6DB6FBF92C243E1200ADA01A /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				6DB6FC032C24405400ADA01A /* FetchAppleProductListRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -207,6 +298,16 @@
 		6DB6FBFA2C243E2600ADA01A /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				6DB6FC0D2C2443B200ADA01A /* DataTransferService.swift */,
+				6DB6FC0F2C2443CD00ADA01A /* NetworkManager.swift */,
+				6DB6FC112C2443E500ADA01A /* NetworkConfigurable.swift */,
+				6DB6FC132C24466F00ADA01A /* NetworkSessionManager.swift */,
+				6DB6FC152C24468100ADA01A /* URLSessionProtocol.swift */,
+				6DB6FC172C24469C00ADA01A /* URLRequestGenerator.swift */,
+				6DB6FC192C2446B200ADA01A /* NetworkRequest.swift */,
+				6DB6FC1B2C2446C600ADA01A /* NetworkError.swift */,
+				6DB6FC442C2450D100ADA01A /* SharedURLSession.swift */,
+				6DB6FC462C2450E100ADA01A /* SharedURLSessionDelegate.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -221,12 +322,17 @@
 				6DB6FBD42C243CAF00ADA01A /* Sources */,
 				6DB6FBD52C243CAF00ADA01A /* Frameworks */,
 				6DB6FBD62C243CAF00ADA01A /* Resources */,
+				6DB6FC282C2448C400ADA01A /* SwiftLint */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6DB6FC2A2C2448D300ADA01A /* PBXTargetDependency */,
 			);
 			name = AppleProducts;
+			packageProductDependencies = (
+				6DB6FC3A2C244BC200ADA01A /* Kingfisher */,
+			);
 			productName = AppleProducts;
 			productReference = 6DB6FBD82C243CAF00ADA01A /* AppleProducts.app */;
 			productType = "com.apple.product-type.application";
@@ -255,6 +361,10 @@
 				Base,
 			);
 			mainGroup = 6DB6FBCF2C243CAF00ADA01A;
+			packageReferences = (
+				6DB6FC252C2448BB00ADA01A /* XCRemoteSwiftPackageReference "SwiftLint" */,
+				6DB6FC392C244BC200ADA01A /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 6DB6FBD92C243CAF00ADA01A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -276,17 +386,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6DB6FC282C2448C400ADA01A /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse \n    echo \"warning: SwiftLint not installed\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6DB6FBD42C243CAF00ADA01A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DB6FBDE2C243CAF00ADA01A /* ContentView.swift in Sources */,
+				6DB6FC2C2C2449FE00ADA01A /* Double+Extensions.swift in Sources */,
+				6DB6FC0E2C2443B200ADA01A /* DataTransferService.swift in Sources */,
+				6DB6FC0C2C2441CD00ADA01A /* AppleProductListService.swift in Sources */,
+				6DB6FC302C244A4C00ADA01A /* AppleProductListView.swift in Sources */,
+				6DB6FBFC2C243EE800ADA01A /* AppleProduct.swift in Sources */,
+				6DB6FC102C2443CD00ADA01A /* NetworkManager.swift in Sources */,
+				6DB6FC322C244B2400ADA01A /* AppleProductListLayout.swift in Sources */,
+				6DB6FC342C244B6400ADA01A /* ErrorView.swift in Sources */,
+				6DB6FC082C24419800ADA01A /* APIEndpoint.swift in Sources */,
+				6DB6FC202C24479B00ADA01A /* AppleProductListViewModel.swift in Sources */,
+				6DB6FC472C2450E100ADA01A /* SharedURLSessionDelegate.swift in Sources */,
+				6DB6FC492C2450FD00ADA01A /* URLAuthenticationChallenge+Extensions.swift in Sources */,
+				6DB6FC432C24507A00ADA01A /* AppConfiguration.swift in Sources */,
+				6DB6FC042C24405400ADA01A /* FetchAppleProductListRepository.swift in Sources */,
+				6DB6FC062C2440DD00ADA01A /* AppleProductListDTO.swift in Sources */,
+				6DB6FC122C2443E500ADA01A /* NetworkConfigurable.swift in Sources */,
+				6DB6FC0A2C2441C600ADA01A /* AppleProductListServiceType.swift in Sources */,
+				6DB6FC022C24400E00ADA01A /* FetchAppleProductListType.swift in Sources */,
+				6DB6FC382C244BA500ADA01A /* HeaderImageView.swift in Sources */,
+				6DB6FC412C24505B00ADA01A /* AppDIContainer.swift in Sources */,
+				6DB6FC222C2447DE00ADA01A /* AppleProductListPresentable.swift in Sources */,
+				6DB6FC002C243F7800ADA01A /* FetchAppleProductList.swift in Sources */,
+				6DB6FC362C244B8800ADA01A /* AppleProductItemView.swift in Sources */,
+				6DB6FC182C24469C00ADA01A /* URLRequestGenerator.swift in Sources */,
+				6DB6FC162C24468100ADA01A /* URLSessionProtocol.swift in Sources */,
+				6DB6FC3D2C244BE800ADA01A /* AppleProductDetailView.swift in Sources */,
+				6DB6FC242C24487000ADA01A /* AppleProductListViewModelType.swift in Sources */,
+				6DB6FC142C24466F00ADA01A /* NetworkSessionManager.swift in Sources */,
+				6DB6FC1E2C24475900ADA01A /* Constants.swift in Sources */,
+				6DB6FC3F2C244DFF00ADA01A /* AppleProductListFactory.swift in Sources */,
 				6DB6FBDC2C243CAF00ADA01A /* AppleProductsApp.swift in Sources */,
+				6DB6FC1A2C2446B200ADA01A /* NetworkRequest.swift in Sources */,
+				6DB6FC452C2450D100ADA01A /* SharedURLSession.swift in Sources */,
+				6DB6FBFE2C243F3900ADA01A /* FetchAppleProductListRepositoryType.swift in Sources */,
+				6DB6FC1C2C2446C600ADA01A /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DB6FC2A2C2448D300ADA01A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 6DB6FC292C2448D300ADA01A /* SwiftLintBuildToolPlugin */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		6DB6FBE42C243CB100ADA01A /* Debug */ = {
@@ -431,9 +602,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.edgar.AppleProducts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -460,9 +634,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.edgar.AppleProducts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -488,6 +665,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6DB6FC252C2448BB00ADA01A /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/SwiftLint";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.55.1;
+			};
+		};
+		6DB6FC392C244BC200ADA01A /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6DB6FC292C2448D300ADA01A /* SwiftLintBuildToolPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DB6FC252C2448BB00ADA01A /* XCRemoteSwiftPackageReference "SwiftLint" */;
+			productName = "plugin:SwiftLintBuildToolPlugin";
+		};
+		6DB6FC3A2C244BC200ADA01A /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DB6FC392C244BC200ADA01A /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6DB6FBD02C243CAF00ADA01A /* Project object */;
 }
